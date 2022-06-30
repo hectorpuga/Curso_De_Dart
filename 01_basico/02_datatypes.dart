@@ -61,4 +61,21 @@ O'Connor''';
   Set<String> villanos2 = {'Lex', 'Red Skull', 'Doom'};
   villanos2.add('Duende Verde');
   // print(villanos2);
+
+  // ====== Maps
+
+  Map<int, dynamic> iroman = {
+    1: 'Tony Stark',
+    1: 'Inteligencia y el dinero',
+    1: 9000,
+  };
+
+  // print(iroman['poder']);
+
+  Map<String, dynamic> capitan = new Map();
+
+  capitan.addAll(
+      {'nombre': 'Steve', 'poder': 'Soportar droga sin morir', 'nivel': 5000});
+
+  print(capitan);
 }
