@@ -41,7 +41,24 @@ O'Connor''';
   List<String> villanos = ['Lex', 'Red Skull', 'Doom']; // Son base 0
   //                         0          1         2
 
-  villanos[0] = 'Superman';
+  // villanos[0] = 'Superman';
+
+  villanos.add('Duende Verde');
+  villanos.add('Duende Verde');
+  villanos.add('Duende Verde');
+  villanos.add('Duende Verde');
+  villanos.add('Duende Verde');
+  villanos.add('Duende Verde');
 
   // print(villanos);
+
+  var villanosSet = villanos.toSet();
+
+  // print(villanosSet.toList());
+
+  // ======== sets
+
+  Set<String> villanos2 = {'Lex', 'Red Skull', 'Doom'};
+  villanos2.add('Duende Verde');
+  // print(villanos2);
 }
