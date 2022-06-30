@@ -27,5 +27,12 @@ Hola mundo
 $nombreCompleto
 O'Connor''';
 
-  print(multilinea);
+  // print(multilinea);
+
+  // ====== Boleans
+
+  bool isActive = true;
+  bool isNotActive = !isActive;
+
+  print(isNotActive);
 }
