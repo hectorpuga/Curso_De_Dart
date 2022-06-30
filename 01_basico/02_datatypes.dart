@@ -11,5 +11,21 @@ void main() {
 
   double resultado = _a + $b;
 
-  print(resultado);
+  // print(resultado);
+
+  // ====== String
+
+  String nombre = 'Tony';
+  String nombre2 = "Tony";
+  String nombre3 = "0\'Coonor";
+  String apellido = 'Stark';
+  String nombreCompleto = '$nombre $apellido';
+
+  String multilinea = '''
+Hola mundo
+¿Cómo estás?
+$nombreCompleto
+O'Connor''';
+
+  print(multilinea);
 }
