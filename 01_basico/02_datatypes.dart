@@ -34,5 +34,14 @@ O'Connor''';
   bool isActive = true;
   bool isNotActive = !isActive;
 
-  print(isNotActive);
+  // print(isNotActive);
+
+  // ===== Lists
+  // List<String> villanosDeprecated = new List();
+  List<String> villanos = ['Lex', 'Red Skull', 'Doom']; // Son base 0
+  //                         0          1         2
+
+  villanos[0] = 'Superman';
+
+  // print(villanos);
 }
