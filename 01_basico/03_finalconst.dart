@@ -1,8 +1,13 @@
 void main() {
-  var a = 10;
+  int a = 10;
   final double b = 10.0;
   const double c = 10.0;
 
+  final double x;
+
+  x = 0;
+
+  print(x);
   // a = 20;
   // b = 20;
   // c = 20;
