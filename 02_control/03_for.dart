@@ -1,9 +1,9 @@
 import 'dart:io';
 
 void main() {
-  for (int i = 0; i < 10; i++) {
-    print('index i: $i');
-  }
+  // for (int i = 0; i < 10; i++) {
+  //   print('index i: $i');
+  // }
 
   /*
   Dato de entrada: La base de la tabla de multiplicar
@@ -20,5 +20,9 @@ void main() {
    */
 
   stdout.writeln('Introduce la base:');
-  stdin.readLineSync();
+  int base = int.parse(stdin.readLineSync() ?? '0');
+
+  for (int i = 1; i <= 10; i++) {
+    print('$base X $i = ${base * i}');
+  }
 }
