@@ -25,6 +25,14 @@ class Persona {
   // }
 
   Persona(this._edad, this._bio, this._nombre);
+  Persona.persona30(this._nombre) {
+    this.edad = 30;
+  }
+
+  Persona.persona40(String nombre) {
+    this.edad = 40;
+    this.nombre = nombre;
+  }
   // métodos
   @override
   String toString() => '$_nombre $_edad $_bio';
